@@ -1,0 +1,16 @@
+# Data parameters
+WINDOW_SIZE = 17
+NUM_FEATURES = 21
+NUM_CLASSES = 8
+SEQUENCE_LEN = 700
+
+# Training parameters
+BATCH_SIZE = 64
+LEARNING_RATE = 0.0009
+EPOCHS = 35
+DROPOUT = 0.38
+
+# Paths
+DATA_PATH = "data"
+CHECKPOINT_PATH = "checkpoints"
+LOG_PATH = "logs"
